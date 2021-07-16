@@ -18,6 +18,8 @@
 		FA5F591326A186C300893DB3 /* TodoViewMoedl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F591226A186C300893DB3 /* TodoViewMoedl.swift */; };
 		FA5F591926A1872B00893DB3 /* KeyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F591826A1872B00893DB3 /* KeyString.swift */; };
 		FA5F591B26A1873E00893DB3 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F591A26A1873E00893DB3 /* TodoModel.swift */; };
+		FA5F591F26A1ADE300893DB3 /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F591D26A1ADE300893DB3 /* ToDoTableViewCell.swift */; };
+		FA5F592026A1ADE300893DB3 /* ToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5F591E26A1ADE300893DB3 /* ToDoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		FA5F591226A186C300893DB3 /* TodoViewMoedl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewMoedl.swift; sourceTree = "<group>"; };
 		FA5F591826A1872B00893DB3 /* KeyString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyString.swift; sourceTree = "<group>"; };
 		FA5F591A26A1873E00893DB3 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		FA5F591D26A1ADE300893DB3 /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		FA5F591E26A1ADE300893DB3 /* ToDoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		FA5F591526A186FA00893DB3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA5F591C26A1ADBE00893DB3 /* Cell */,
 				FA5F58FC26A183CE00893DB3 /* Main.storyboard */,
 			);
 			path = View;
@@ -136,6 +141,15 @@
 				FA5F591826A1872B00893DB3 /* KeyString.swift */,
 			);
 			path = Languages;
+			sourceTree = "<group>";
+		};
+		FA5F591C26A1ADBE00893DB3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA5F591D26A1ADE300893DB3 /* ToDoTableViewCell.swift */,
+				FA5F591E26A1ADE300893DB3 /* ToDoTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +212,7 @@
 				FA5F590326A183D200893DB3 /* LaunchScreen.storyboard in Resources */,
 				FA5F590026A183D200893DB3 /* Assets.xcassets in Resources */,
 				FA5F58FE26A183CE00893DB3 /* Main.storyboard in Resources */,
+				FA5F592026A1ADE300893DB3 /* ToDoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +229,7 @@
 				FA5F58FB26A183CE00893DB3 /* ViewController.swift in Sources */,
 				FA5F590C26A1864500893DB3 /* Support.swift in Sources */,
 				FA5F58F726A183CE00893DB3 /* AppDelegate.swift in Sources */,
+				FA5F591F26A1ADE300893DB3 /* ToDoTableViewCell.swift in Sources */,
 				FA5F58F926A183CE00893DB3 /* SceneDelegate.swift in Sources */,
 				FA5F591926A1872B00893DB3 /* KeyString.swift in Sources */,
 			);

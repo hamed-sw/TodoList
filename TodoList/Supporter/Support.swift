@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct CellIdentifire {
+    static let toDoTableViewCell = "ToDoTableViewCell"
+}
